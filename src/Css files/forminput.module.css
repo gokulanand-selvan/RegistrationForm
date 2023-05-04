@@ -1,0 +1,19 @@
+.formcontainer{
+    background-color: lightgrey;
+}
+.personal{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    /* grid-template-columns: 9em 9em 9em 9em 9em 9em 9em ; */
+    row-gap: 1em;
+    column-gap: 2em;
+}
+.inputdiv{
+    display: flex ;
+    align-items: center;
+    gap: 1em;
+}
+.guardianDetials{
+    display: flex;
+    gap: 4em;
+}
